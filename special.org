@@ -1,0 +1,55 @@
+#+TITLE: What makes Clojure special?
+#+AUTHOR: Stefan Hübner
+#+EMAIL: sthuebner@googlemail.com
+
+* It's a Lisp!
+
+- one of the oldest languages (and still in use)
+- source of many language innovations
+- small core
+  - special forms
+  - Clojure's (def, if, do, let, quote, var, fn, loop, recur,
+    throw, try-catch-finally, + Java interop)
+- almost no syntax
+- code is data, data is code
+- Clojure is different from other Lisps in some ways
+  - on the JVM
+  - immutable data structures by default
+
+* Dynamic Development
+
+- not only compile and run, but
+- *interact* with your program!
+
+* Functional Programming
+
+- first-class functions
+- immutable data structures
+- extensible abstractions
+  - sequence library
+- recursion
+  - tail call optimization
+  - loop, recur
+
+* Not Object-Oriented
+
+- but strong polymorphism support
+  - based on multi-dispatch (see e.g. multimethod example in clojure.java.io/do-copy)
+
+* …on the JVM
+
+- nice interoperability
+- leverage a vast pool of libraries
+- easy proxying of classes and interfaces
+
+* Designed for Concurrency
+
+- immutable data structures
+- but state change is supported
+- Software Transactional Memory System (STM)
+  - Refs, Atoms, Agents
+- dynamic vars
+
+* Further Reading
+
+- clojure.org: [[http://clojure.org/rationale][Rationale]]
