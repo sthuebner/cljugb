@@ -40,7 +40,7 @@ then, in Emacs
 
 ** Other IDEs
 
-contributions welcome!
+*contributions welcome!*
 
 * Further reading
 
