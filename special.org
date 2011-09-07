@@ -53,3 +53,4 @@
 * Further Reading
 
 - clojure.org: [[http://clojure.org/rationale][Rationale]]
+- blip.tv: [[http://blip.tv/clojure][Screencasts, talks, tutorials on Clojure]]
