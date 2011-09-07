@@ -1,0 +1,7 @@
+* What' this?
+
+This is a collection of materials I've pulled together for the [[http://www.meetup.com/Clojure-Berlin][Clojure User Group Berlin]].
+
+* Author
+
+Stefan Hübner, Twitter: [[https://twitter.com/sthuebner][@sthuebner]]
