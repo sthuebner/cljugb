@@ -1,0 +1,50 @@
+#+TITLE: How to work with the REPL
+#+AUTHOR: Stefan Hübner
+#+EMAIL: sthuebner@googlemail.com
+
+* What's a REPL?
+
+The read-eval-print loop (REPL) can be considered an interactive
+shell. The REPL lets you interact with a running Clojure system.
+
+Many other language environments provide interactive shells. The termn
+"REPL" is most commonly used for languages in the Lisp family.
+
+* How to fire it up
+
+** clojure.main
+
+: $ java -cp clojure.jar clojure.main --repl
+
+** Leiningen
+
+: $ lein repl
+
+* How to leverage it in IDEs
+
+You can interact with Clojure from within your favourite IDE!
+
+** Emacs / SLIME
+
+firing up a fresh REPL
+
+: M-x slime
+
+firing up a REPL on an existing project
+
+in the shell:
+: $ lein swank
+
+then, in Emacs
+: M-x slime-connect
+
+** Other IDEs
+
+contributions welcome!
+
+* Further reading
+
+- Wikipedia: [[http://en.wikipedia.org/wiki/REPL][REPL]]
+- Clojure.org: [[http://clojure.org/repl_and_main][The REPL and main entry points]]
+- Paul Graham: [[http://www.paulgraham.com/rootsoflisp.html][The Roots of Lisp]]
+- dev.clojure.org: [[http://dev.clojure.org/display/doc/Getting%2BStarted][Getting Started]]
