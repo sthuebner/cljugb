@@ -35,6 +35,7 @@
 
 - but strong polymorphism support
   - based on multi-dispatch (see e.g. multimethod example in clojure.java.io/do-copy)
+  - clojure.contrib.match (Pattern Matching)
 
 * …on the JVM
 
