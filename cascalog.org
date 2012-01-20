@@ -1,0 +1,87 @@
+#+TITLE:     Introduction to Cascalog
+#+AUTHOR:    Stefan Hübner
+#+EMAIL:     sthuebner@googlemail.com
+#+DATE:      2012-02-01
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+
+#+STARTUP: beamer
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [bigger]
+
+#+latex_header: \mode<beamer>{\usetheme{Madrid}}
+
+#+BEAMER_FRAME_LEVEL: 2
+
+* Ideas
+- structure it like Nathan Marz: http://nathanmarz.com/blog/cascalog-presentation-at-bay-area-clojure-user-group.html
+- collaborative filtering
+  - sample data?
+
+* Context
+** A Lot of Data!
+
+Hadoop, large data, map reduce
+
+** What is Hadoop
+- Distributed Filesystem
+- MapReduce Framework
+- Scales (1000s machines, petabytes)
+
+** What is Cascalog
+
+
+* Programming Hadoop
+
+Simple Example: word count
+
+** MapReduce
+
+- [[http://wiki.apache.org/hadoop/WordCount]]
+- http://hadoop.apache.org/common/docs/current/mapred_tutorial.html
+
+** Pig
+
+- http://en.wikipedia.org/wiki/Pig_(programming_language)
+
+** Cascading
+
+- https://github.com/cwensel/cascading.samples/tree/master/wordcount/
+
+* Cascalog
+
+# word count sequel
+
+# joining data, outer joins
+
+# predicate macros (comparing Cascalog's avg with Pig's)
+
+# sorting
+
+
+* Resources
+
+- https://github.com/nathanmarz/cascalog
+- http://nathanmarz.com/blog
+  - http://nathanmarz.com/blog/introducing-cascalog-a-clojure-based-query-language-for-hado.html
+  - http://nathanmarz.com/blog/new-cascalog-features-outer-joins-combiners-sorting-and-more.html
+  - http://nathanmarz.com/blog/cascalog-presentation-at-bay-area-clojure-user-group.html
+  - http://nathanmarz.com/blog/news-feed-in-38-lines-of-code-using-cascalog.html
+- http://sna-projects.com/blog/2010/11/clojure-at-backtype
+- http://tech.backtype.com/52456836 (Why Yieldbot chose cascalog over
+  Pig for hadoop processing)
+- http://tech.backtype.com/videos-from-the-may-hadoop-meet-up
+
+* Questions?
+
+Thanks!
