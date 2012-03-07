@@ -1,0 +1,69 @@
+#+TITLE:     Introduction to Cascalog
+#+AUTHOR:    Stefan Hübner / @sthuebner
+#+EMAIL:     sthuebner@googlemail.com
+#+DATE:      2012-03-07
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+
+#+STARTUP: beamer
+#+LaTeX_CLASS: beamer
+
+#+latex_header: \mode<beamer>{\usetheme{Madrid}}
+
+
+* What's Cascalog?
+
+\begin{quote}
+"Cascalog is a fully-featured data processing and querying library for
+Clojure. The main use cases for Cascalog are processing "Big Data" on
+top of Hadoop or doing analysis on your local computer from the
+Clojure REPL. Cascalog is a replacement for tools like Pig, Hive, and
+Cascading.
+
+Cascalog operates at a significantly higher level of abstraction than
+a tool like SQL. More importantly, its tight integration with Clojure
+gives you the power to use abstraction and composition techniques with
+your data processing code just like you would with any other
+code. It's this latter point that sets Cascalog far above any other
+tool in terms of expressive power."
+\end{quote}
+
+
+* Features
+
+- a data processing and querying library for Clojure
+- for Hadoop but also for the REPL (locally)
+- based on Cascading
+- tight integration with Clojure
+
+
+* Programming Cascalog
+
+  DEMO TIME!
+
+* Thanks!
+
+Questions?
+
+
+
+* Resources
+
+- https://github.com/nathanmarz/cascalog
+- [[http://nathanmarz.com/blog/introducing-cascalog-a-clojure-based-query-language-for-hado.html][Nathan Marz: Introducing Cascalog - A Clojure-based Query Language for Hadoop]]
+- [[http://nathanmarz.com/blog/new-cascalog-features-outer-joins-combiners-sorting-and-more.html][Nathan Marz: New Cascalog Features]]
+- [[http://tech.backtype.com/52456836][Backtype: Why Yieldbot chose Cascalog over Pig]]
+- [[http://blog.factual.com/clojure-on-hadoop-a-new-hope][Factual: Clojure on Hadoop - A New Hope]]
+- [[http://clojure.com/blog/2012/02/03/functional-relational-programming-with-cascalog.html][Stuart Sierra: Functional Relational Programming with Cascalog]]
+- [[http://sna-projects.com/blog/2010/11/clojure-at-backtype][LinkedIn Tech Talk: Clojure at Backtype]] (Video)
+- [[http://blip.tv/clojure/nathan-marz-cascalog-making-data-processing-fun-again-5970118][Nathan Marz: Cascalog - Making Data Processing Fun Again]] (Video, Clojure/conj 2011)
