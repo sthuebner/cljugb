@@ -1,5 +1,5 @@
 #+TITLE:     Introduction to Cascalog
-#+AUTHOR:    Stefan Hübner
+#+AUTHOR:    Stefan Hübner / @sthuebner
 #+EMAIL:     sthuebner@googlemail.com
 #+DATE:      2012-02-01
 #+DESCRIPTION:
@@ -28,7 +28,8 @@
 - collaborative filtering
   - sample data?
 
-* Context
+
+* Hadoop
 ** A Lot of Data!
 
 Hadoop, large data, map reduce
@@ -37,8 +38,6 @@ Hadoop, large data, map reduce
 - Distributed Filesystem
 - MapReduce Framework
 - Scales (1000s machines, petabytes)
-
-** What is Cascalog
 
 
 * Programming Hadoop
@@ -58,18 +57,51 @@ Simple Example: word count
 
 - https://github.com/cwensel/cascading.samples/tree/master/wordcount/
 
+
 * Cascalog
+** What's Cascalog?
 
-# word count sequel
+"Cascalog is a fully-featured data processing and querying library for
+Clojure. The main use cases for Cascalog are processing "Big Data" on
+top of Hadoop or doing analysis on your local computer from the
+Clojure REPL. Cascalog is a replacement for tools like Pig, Hive, and
+Cascading.
 
+Cascalog operates at a significantly higher level of abstraction than
+a tool like SQL. More importantly, its tight integration with Clojure
+gives you the power to use abstraction and composition techniques with
+your data processing code just like you would with any other
+code. It's this latter point that sets Cascalog far above any other
+tool in terms of expressive power."
+
+** Features
+- high level abstractions
+- tight integration with Clojure
+
+
+* Programming Cascalog
+** word count sequel
+** Demo time!
 # joining data, outer joins
 
 # predicate macros (comparing Cascalog's avg with Pig's)
 
 # sorting
 
+** Testing
 
-* Resources
+# Midje (0.4.0 has just been released)
+[[http://feedproxy.google.com/~r/sam-ritchie/~3/GShXHgJNJgk/cascalog-testing-20.html]]
+
+
+* Finally
+** Questions?
+
+Thanks!
+
+
+* Appendix
+** Resources
 
 - https://github.com/nathanmarz/cascalog
 - http://nathanmarz.com/blog
@@ -81,7 +113,6 @@ Simple Example: word count
 - http://tech.backtype.com/52456836 (Why Yieldbot chose cascalog over
   Pig for hadoop processing)
 - http://tech.backtype.com/videos-from-the-may-hadoop-meet-up
-
-* Questions?
-
-Thanks!
+- http://blog.yieldbot.com/using-lucene-and-cascalog-for-fast-text-proce
+- http://blog.factual.com/clojure-on-hadoop-a-new-hope
+- http://blip.tv/clojure/nathan-marz-cascalog-making-data-processing-fun-again-5970118
